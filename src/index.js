@@ -7,6 +7,7 @@ import promise from 'redux-promise';
 
 import reducers from './reducers';
 import List from './components/list';
+import ShowMovie from './components/showMovie';
 
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
@@ -15,6 +16,7 @@ ReactDOM.render(
     <BrowserRouter>
       <div>
         <Switch>
+          <Route path="/movie/:id" component={ShowMovie}/>
           <Route path="/" component={List}/>
         </Switch>
       </div>
