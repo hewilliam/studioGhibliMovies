@@ -25,7 +25,8 @@ class List extends Component {
         console.log(this.props.list)
         return (
             <div>
-                <h3>List of Studio Ghibli Movies</h3>
+                <h3>Studio Ghibli Movies</h3>
+                <img src='./assets/logo.png'/>
                 <ul className="list-group"> 
                     {this.renderMovies()}
                 </ul>
