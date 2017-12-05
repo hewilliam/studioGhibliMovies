@@ -41046,7 +41046,7 @@
 	                    null,
 	                    'Studio Ghibli Movies'
 	                ),
-	                _react2.default.createElement('img', { id: 'logo', src: './assets/logo.png' }),
+	                _react2.default.createElement('img', { id: 'logo', src: 'https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/1200px-Studio_Ghibli_logo.svg.png' }),
 	                _react2.default.createElement(
 	                    'ul',
 	                    { className: 'list-group' },
