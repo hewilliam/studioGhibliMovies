@@ -2,6 +2,7 @@ import _ from 'lodash';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchMovies } from '../actions';
+import { Link } from 'react-router-dom';
 
 class List extends Component {
     componentDidMount() {
@@ -12,7 +13,9 @@ class List extends Component {
         return _.map(this.props.list, list => {
             return (
                 <li className="list-group-item" key={list.id}>
-                    {list.title}
+                    <Link to={`/movie/${list.id}`}>
+                        {list.title}
+                    </Link>
                 </li>
             )
         })
