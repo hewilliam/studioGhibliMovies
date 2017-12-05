@@ -41124,7 +41124,7 @@
 	                "Pom Poko": "https://upload.wikimedia.org/wikipedia/en/6/68/Pompokoposter.jpg",
 	                "Whisper of the Heart": "https://upload.wikimedia.org/wikipedia/en/9/93/Whisper_of_the_Heart_%28Movie_Poster%29.jpg",
 	                "Princess Mononoke": "https://upload.wikimedia.org/wikipedia/en/2/24/Princess_Mononoke_Japanese_Poster_%28Movie%29.jpg",
-	                "My Neigbors the Yamadas": "https://upload.wikimedia.org/wikipedia/en/2/26/Yamadas.jpg",
+	                "My Neighbors the Yamadas": "https://upload.wikimedia.org/wikipedia/en/2/26/Yamadas.jpg",
 	                "Spirited Away": "https://upload.wikimedia.org/wikipedia/en/3/30/Spirited_Away_poster.JPG",
 	                "The Cat Returns": "https://upload.wikimedia.org/wikipedia/en/8/8e/Cat_Returns.jpg",
 	                "Howl's Moving Castle": "https://upload.wikimedia.org/wikipedia/en/a/a0/Howls-moving-castleposter.jpg",
