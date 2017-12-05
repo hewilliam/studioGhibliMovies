@@ -26,7 +26,7 @@ class List extends Component {
         return (
             <div>
                 <h3>Studio Ghibli Movies</h3>
-                <img id="logo"src='./assets/logo.png'/>
+                <img id="logo"src='https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/1200px-Studio_Ghibli_logo.svg.png'/>
                 <ul className="list-group"> 
                     {this.renderMovies()}
                 </ul>
