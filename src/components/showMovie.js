@@ -51,9 +51,9 @@ class ShowMovie extends Component {
                 <img id="picture" src={this.renderPicture(list.title)}/>
                 <div id="movie">
                     <h5>Director</h5> {list.director}
-                    <h5>Rating</h5> {list.rt_score}
                     <h5>Producer</h5> {list.producer}
                     <h5>Year Released</h5> {list.release_date}
+                    <h5>Rating</h5> {list.rt_score}
                     <h5>Description</h5> {list.description}
                 </div>
             </div>
