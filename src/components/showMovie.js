@@ -45,10 +45,17 @@ class ShowMovie extends Component {
         }
 
         return (
-            <div id="movie">
+            <div>
                 <Link to="/" className="btn btn-secondary">Back To Movie List</Link>
                 <h3>{list.title}</h3>
-                <img src={this.renderPicture(list.title)}/>
+                <img id="picture" src={this.renderPicture(list.title)}/>
+                <div id="movie">
+                    <h5>Director</h5> {list.director}
+                    <h5>Rating</h5> {list.rt_score}
+                    <h5>Producer</h5> {list.producer}
+                    <h5>Year Released</h5> {list.release_date}
+                    <h5>Description</h5> {list.description}
+                </div>
             </div>
         )
     }
