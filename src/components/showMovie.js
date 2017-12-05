@@ -62,8 +62,6 @@ class ShowMovie extends Component {
 }
 
 function mapStateToProps({ list }, ownProps) { //ownProps is the same as this.props
-    console.log("id", ownProps.match.params.id)
-    console.log("list", list)
     
     return { list: list[ownProps.match.params.id] } //only returns ONE movie
 }

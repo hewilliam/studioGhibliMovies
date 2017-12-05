@@ -6,7 +6,6 @@ export default function (state = {}, action) {
     switch (action.type) {
         case FETCH_MOVIE:
             const movie = action.payload.data;
-            console.log('movie', movie)
             const newState = {...state}
             newState[movie.id] = movie
             return newState;

@@ -22,7 +22,6 @@ class List extends Component {
     }
 
     render () {
-        console.log(this.props.list)
         return (
             <div>
                 <h3>Studio Ghibli Movies</h3>

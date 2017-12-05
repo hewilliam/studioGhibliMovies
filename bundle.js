@@ -27006,7 +27006,6 @@
 	    switch (action.type) {
 	        case _actions.FETCH_MOVIE:
 	            var movie = action.payload.data;
-	            console.log('movie', movie);
 	            var newState = _extends({}, state);
 	            newState[movie.id] = movie;
 	            return newState;
@@ -41037,7 +41036,6 @@
 	    }, {
 	        key: 'render',
 	        value: function render() {
-	            console.log(this.props.list);
 	            return _react2.default.createElement(
 	                'div',
 	                null,
@@ -41215,8 +41213,6 @@
 	function mapStateToProps(_ref, ownProps) {
 	    var list = _ref.list;
 	    //ownProps is the same as this.props
-	    console.log("id", ownProps.match.params.id);
-	    console.log("list", list);
 
 	    return { list: list[ownProps.match.params.id] //only returns ONE movie
 	    };
