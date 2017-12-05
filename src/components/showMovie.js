@@ -46,7 +46,7 @@ class ShowMovie extends Component {
 
         return (
             <div>
-                <Link to="https://hewilliam.github.io/studioGhibliMovies/" className="btn btn-secondary">Back To Movie List</Link>  
+                <Link to="/" className="btn btn-secondary">Back To Movie List</Link>
                 <h3>{list.title}</h3>
                 <img id="picture" src={this.renderPicture(list.title)}/>
                 <div id="movie">
