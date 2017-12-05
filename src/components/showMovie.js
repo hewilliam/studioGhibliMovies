@@ -6,7 +6,6 @@ import { fetchMovie } from '../actions'
 class ShowMovie extends Component {
     componentDidMount() {
         const id = this.props.match.params;
-        console.log('id1', id)
         this.props.fetchMovie(id.id);
     }
 

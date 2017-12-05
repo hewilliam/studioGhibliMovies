@@ -41106,7 +41106,6 @@
 	        key: 'componentDidMount',
 	        value: function componentDidMount() {
 	            var id = this.props.match.params;
-	            console.log('id1', id);
 	            this.props.fetchMovie(id.id);
 	        }
 	    }, {
