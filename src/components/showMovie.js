@@ -60,9 +60,11 @@ class ShowMovie extends Component {
     }
 }
 
-function mapStateToProps({ list }, ownProps) { //ownProps is the same as this.props
+// function mapStateToProps({ list }, ownProps) { //ownProps is the same as this.props
     
-    return { list: list[ownProps.match.params.id] } //only returns ONE movie
-}
+//     return { list: list[ownProps.match.params.id] } //only returns ONE movie
+// }
 
-export default connect(mapStateToProps, { fetchMovie: fetchMovie })(ShowMovie)
+// export default connect(mapStateToProps, { fetchMovie: fetchMovie })(ShowMovie)
+
+export default connect(state => ({fetchMovie: fetchMovie}))(ShowMovie)
