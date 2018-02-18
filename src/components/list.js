@@ -34,8 +34,11 @@ class List extends Component {
     }
 }
 
-function mapStateToProps(state) {
-    return { list: state.list }
-}
+// function mapStateToProps(state) {
+//     return { list: state.list }
+// }
 
-export default connect(mapStateToProps, {fetchMovies: fetchMovies}) (List); 
+// export default connect(mapStateToProps, {fetchMovies: fetchMovies}) (List); 
+
+
+export default connect(state => ({fetchMovies: fetchMovies})) (List); 
