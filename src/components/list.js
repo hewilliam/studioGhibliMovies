@@ -7,6 +7,8 @@ import { Link } from 'react-router-dom';
 class List extends Component {
     componentDidMount() {
         this.props.fetchMovies();
+        console.log(this.props)
+        console.log('asdfasdfasdf')
     }
 
     renderMovies () { //used lodash to map on a OBJECT
@@ -34,11 +36,9 @@ class List extends Component {
     }
 }
 
-// function mapStateToProps(state) {
-//     return { list: state.list }
-// }
+function mapStateToProps(state) {
+    return { list: state.list }
+}
 
-// export default connect(mapStateToProps, {fetchMovies: fetchMovies}) (List); 
+export default connect(mapStateToProps, {fetchMovies: fetchMovies}) (List); 
 
-
-export default connect(state => ({fetchMovies: fetchMovies})) (List); 
